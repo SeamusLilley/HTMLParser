@@ -15,6 +15,10 @@ bool WriteExtractNews(vector<string>& news, vector<string>& urls);	// Function t
 
 int main()
 {
+	// 1. Declare vector that you want to use for processing
+	// 2. Read input file from given url
+	// 3. Start parsing (analyse the HTML document before deciding what to parse)
+	// 4. Write output to file
 	return 0;
 }
 
