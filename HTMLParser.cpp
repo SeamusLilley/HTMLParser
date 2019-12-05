@@ -9,9 +9,9 @@
 
 using namespace std;
 
-vector<string> GetDataFile(string url);		// Function to read input file
+vector<string> GetDataFile(string url);					// Function to read input file
 vector<string> ParseData(vector<string> s, string pattern);		// Utility function to perform parsing
-bool WriteExtractNews(vector<string>& news, vector<string>& urls);		// Function to write output file
+bool WriteExtractNews(vector<string>& news, vector<string>& urls);	// Function to write output file
 
 int main()
 {
